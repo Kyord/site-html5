@@ -1,0 +1,138 @@
+/*/ http://stardewvalley.net
+Oque falta?
+	- Melhorar o top menu.
+		- Centralizar as letras.
+		- Criar um hover que se adapta ao tamanho do texto. (Parecido com o original)
+	- Se é possivel deixar o content com bordas arredondada.
+/*/
+
+body {
+	background-image: url('../img/background.png');
+}
+
+#tabtitle {
+	display:inline-block;
+	margin-left: 15px;
+}
+
+#tabtext {
+	display:inline-block;
+	margin-left: 30px;
+}
+
+section {
+	width: 1000px;
+	height: 600px;
+	margin: -40px auto 0;
+}
+
+/*LOGO-BANNER*/
+header {
+	width: 964px;
+	height: 320px;
+	background-color: transparent;
+	background-image: url('../img/banner.png');
+}
+
+h1.logo {
+	padding-top: 50px;
+	text-align: center;
+}
+
+/*TOP-MENU*/
+header.menuTop {
+	width: 1000px;
+	height: 36px;
+	margin: 0 auto;
+	margin-top: -20px;
+	background-color: transparent;
+	background-image: url('../img/menubar.png');
+}
+
+.menuTop ul li {
+	display: block;
+	float: left;
+	margin-top: 6px;
+	min-width: 100px;
+	height: 25px;
+	text-align: center;
+	list-style-type: none;
+}
+
+.menuTop a:link, a:hover, a:visited {color: #ffffff; text-decoration: none;}
+.liMenuTop {margin-top: 7px;}
+.liMenuTop:hover {background-color: rgb(236, 171, 132);}
+/*END-TOP-MENU*/
+
+/*LEFT-MENU*/
+nav {
+	width: 150px;
+	height: 450px;
+	background-color: transparent;
+	float: left;
+}
+
+li.liMenuLeft {
+	display: block;
+	margin-left: -40px;
+	margin-top: 10px;
+	min-height: 26px;
+	font-size: 140%;
+	background-image: url('../img/leftMenu.png');
+	text-align: center;
+	cursor: pointer;
+	color: #ffffff;
+}
+
+li.liMenuLeft:hover {
+	background-image: url('../img/leftMenuSelected.png');
+}
+
+li.liMenuLeft a {
+	list-style-type: none;
+	margin: auto;
+	padding-left: 0px;
+	text-decoration: none; /*Tira sublinhado*/
+	
+}
+
+li.liMenuLeft a:link, a:hover, a:visited {color: #ffffff; text-decoration: none;}
+/*END-LEFT-MENU*/
+
+/*CONTENT*/
+article {
+	margin-top: 16px;
+	margin-left: 10px;
+	width: 835px;
+	height: 450px;
+	background-color: rgb(240, 240, 240);
+	float: right;
+	border: 2px solid #000000;
+}
+
+article.play {
+	border: 0px;
+	background-color: transparent;
+
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+/*FOOTER*/
+footer {
+	width: 848px;
+	height: 50px;
+	background-color: transparent;
+	color: white;
+	float: right;
+}
+
+p {
+	padding-top: 28px;
+	text-align: center;
+}
+
+.video {
+	margin-left: 135px;
+}

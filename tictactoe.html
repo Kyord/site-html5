@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/tictactoe.css">
+		<script type="text/javascript" src="js/tictactoe.js"></script>
+		<title>Stardew Valley</title>
+	</head>
+	<body>
+		<section>
+			<header>
+				<h1 class="logo"></h1>
+			</header>
+			<header class="menuTop">
+				<ul class="ulMenuTop">
+					<a href="index.html"><li class="liMenuTop">HOME</li></a>
+					<a href="about.html"><li class="liMenuTop">ABOUT</li></a>
+					<a href="contact.html"><li class="liMenuTop">CONTACT</li></a>
+					<a href="video.html"><li class="liMenuTop">VIDEO</li></a>
+
+					<a href="tictactoe.html"><li class="liMenuTop">TICTACTOE</li></a>
+					<a href="genius.html"><li class="liMenuTop">GENIUS</li></a>
+					<a href="rpg.html"><li class="liMenuTop">RPG</li></a>
+				</ul>
+			</header>
+			<nav class="menuLeft">
+				<ul class="ulMenuLeft">
+					<li class="liMenuLeft"><a href="https://www.youtube.com/watch?v=IRko18QINoc" target="_blank">Tutorial</a></li>
+					<li class="liMenuLeft"><a href="https://www.youtube.com/watch?v=BAghavVerE0" target="_blank">Marriage</a></li>
+					<li class="liMenuLeft"><a href="https://www.youtube.com/watch?v=umN4Bs8MiYs" target="_blank">Skills</a></li>
+					<li class="liMenuLeft"><a href="https://www.youtube.com/watch?v=uFVEFBWq_zc" target="_blank">Tools</a></li>
+				</ul>
+			</nav>
+			<article class="play">
+				<form class="game" method="post" name="tictactoe">
+					<input type="button" class="field" name="sqr1" onclick="round(this)">
+					<input type="button" class="field" name="sqr2" onclick="round(this)">
+					<input type="button" class="field" name="sqr3" onclick="round(this)">
+					<br>
+					<input type="button" class="field" name="sqr4" onclick="round(this)">
+					<input type="button" class="field" name="sqr5" onclick="round(this)">
+					<input type="button" class="field" name="sqr6" onclick="round(this)">
+					<br>
+					<input type="button" class="field" name="sqr7" onclick="round(this)">
+					<input type="button" class="field" name="sqr8" onclick="round(this)">
+					<input type="button" class="field" name="sqr9" onclick="round(this)">
+				</form>
+				<script type="text/javascript">
+					reset();
+				</script>
+			</article>
+			<footer><p>Copyright 2012 Chucklefish LTD.</p></footer>
+			<script>
+				(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+				})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+				ga('create', 'UA-93671608-1', 'auto');
+				ga('send', 'pageview');
+			</script>
+		</section>
+	</body>
+</html>
